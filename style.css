@@ -1,7 +1,47 @@
 * {
-	height: 100%;
-	width: 100%;
 	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+	background-color: #dbe2fe;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+main {
+	max-width: 375px;
+	min-width: 350px;
+	background-color: #ffffff;
+	border-radius: 30px;
+	display: flex;
+	flex-direction: column;
+}
+
+img {
+	width: 100%;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+}
+
+button {
+	width: 85%;
+	height: 55px;
+	margin: auto;
+	border-style: none;	
+	border-radius: 15px;
+}
+
+.proceed {
+	color: #ffffff;
+	background-color: #382ae1;
+}
+
+.cancel {
+	color: #a3a8c8;
+	background-color: #ffffff;
 }
