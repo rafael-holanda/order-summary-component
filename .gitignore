@@ -1,2 +1,4 @@
 *.nix
 *.replit
+*.code-workspace
+order-summary-component-main
