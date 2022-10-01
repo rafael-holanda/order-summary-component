@@ -32,8 +32,7 @@ img {
 }
 
 h1 {
-  margin-top: 35px;
-  margin-bottom: 20px;
+  margin: 35px 0px 20px 0px;
   font-size: 26px;
   font-weight: 900;
 }
@@ -42,13 +41,13 @@ p {
   font-size: 16px;
   font-weight: 500;
   color: #7482a5;
-  margin: 0px 50px;
+  margin: 0px 50px 30px 50px; /* order: top, right, bottom, left */
 }
 
 section {
-  background-color: #b6b6b6; /*#f8f9fe*/
+  background-color: #f8f9fe;
   width: 85%;
-  padding: 18px;
+  padding: 18px 25px;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -64,9 +63,21 @@ section img {
 
 ul {
   flex-grow: 2;
-  /*margin-left: -30px;*/
   text-align: left;
   list-style: none;
+}
+
+.plan {
+  font-weight: 700;
+}
+
+.price {
+  color: #7482a5;
+}
+
+a {
+  font-weight: 700;
+  font-size: 15px; /*14px or 16px, if necessary*/
 }
 
 button {
@@ -81,9 +92,12 @@ button {
 .proceed {
   color: #ffffff;
   background-color: #382ae1;
+  margin-top: 30px;
 }
 
 .cancel {
   color: #7482a5;
   background-color: #ffffff;
+  margin-top: 5px;
+  margin-bottom: 20px;
 }
